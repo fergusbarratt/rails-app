@@ -8,5 +8,5 @@
      + puts "x is not empty" if ! x.empty? - another use of if kw
  - default args same as python
  - implicit return: last statement evaluated
- - 
+ - end in ! to mutate arrays
 
