@@ -13,7 +13,6 @@ gem 'therubyracer', '>= 0.9.9'
 
 
 group :development do
-  gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
   gem 'sqlite3',     '1.3.9'
   gem 'byebug',      '3.4.0'
