@@ -36,7 +36,6 @@ group :test do
 end
 
 group :production do 
-  gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
   gem 'sqlite3',     '1.3.9'
   gem 'byebug',      '3.4.0'
