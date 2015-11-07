@@ -12,7 +12,7 @@ gem 'jbuilder',     '2.2.3'
 gem 'therubyracer', '>= 0.9.9'
 
 
-group :development do
+group :development, :production do
   gem 'rspec-rails', '2.13.1'
   gem 'sqlite3',     '1.3.9'
   gem 'byebug',      '3.4.0'
@@ -31,14 +31,6 @@ group :test do
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
   # Uncomment this line on OS X.
   gem 'growl', '1.0.3'
-end
-
-group :production do 
-  gem 'rspec-rails', '2.13.1'
-  gem 'sqlite3',     '1.3.9'
-  gem 'byebug',      '3.4.0'
-  gem 'web-console', '2.0.0.beta3'
-  gem 'spring',      '1.1.3'
 end
 
 group :doc do
