@@ -1,15 +1,17 @@
 source 'https://rubygems.org'
 
-gem 'rails',        '4.2.2'
-gem 'bootstrap-sass', '~>3.3.5'
-gem 'sass-rails',   '>=3.2'
-gem 'uglifier',     '2.5.3'
-gem 'coffee-rails', '4.1.0'
-gem 'jquery-rails', '4.0.3'
-gem 'turbolinks',   '2.3.0'
-gem 'jbuilder',     '2.2.3'
-gem 'therubyracer', '>= 0.9.9'
+  gem 'rails',        '4.2.2'
+  gem 'jquery-rails', '4.0.3'
+  gem 'turbolinks',   '2.3.0'
+  gem 'jbuilder',     '2.2.3'
+  gem 'therubyracer', '>= 0.9.9'
 
+group :assets do
+  gem 'bootstrap-sass', '~>3.3.5'
+  gem 'sass-rails',   '>=3.2'
+  gem 'uglifier',     '2.5.3'
+  gem 'coffee-rails', '4.1.0'
+end
 
 group :development, :production do
   gem 'rspec-rails', '2.13.1'
