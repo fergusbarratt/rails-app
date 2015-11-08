@@ -38,6 +38,16 @@ h1 {
 
 h2 {
   font-style: italic;
+  letter-spacing: -1px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: #777;
+}
+
+p {
+  font-style: 1.1em;
+  line-height: 1.7em;
 }
 
 /*header*/
@@ -57,34 +67,3 @@ h2 {
   color: #fff;
   text-decoration: none;
 }
-
-/*footer*/
-
-footer{
-  margin-top: 45px;
-  padding-top: 5px;
-  padding-right: 50px;
-  padding-left: 
-  border-top: 1px solid #eaeaea;
-  color: #777;
-}
-footer a{
-  color: #555;
-}
-
-footer a:hover{
-  color: #777;
-}
-
-footer ul {
-  float: right;
-  list-style: none;
-}
-footer ul li {
-  float: left;
-  margin-left: 15px;
-}
-footer #leftlog {
-  float: left;
-}
-
